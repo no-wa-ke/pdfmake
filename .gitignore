@@ -8,3 +8,5 @@ doc
 *.iws
 test-env
 nbproject
+*.ttf
+*.ttc
