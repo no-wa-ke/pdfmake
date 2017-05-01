@@ -77,7 +77,7 @@ gulp.task('lint', function () {
 });
 
 gulp.task('buildFonts', function () {
-	return gulp.src(['./examples/fonts/*.*'])
+	return gulp.src(['./fonts/*.*'])
 		.pipe(each(function (content, file, callback) {
 			var newContent = new Buffer(content).toString('base64');
 			callback(null, newContent);
